@@ -1,0 +1,11 @@
+*{
+    background-color: #ffd34e9d;
+}
+.carta{
+    display: flex;
+    width: 100%;
+}
+.carta img{
+    justify-content: center;    
+margin-left: 2rem;
+}
