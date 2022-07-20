@@ -32,13 +32,19 @@ h2{
 .carta img{
     justify-content: center;    
 margin-left: 2rem;
+margin-bottom: 2.2rem;
+}
+.carta-otros{
+padding-bottom: 3rem;
 }
 .carta-otros img{
     width: 100%;
-
     justify-content: center;    
-margin-left: 2rem;
+    margin-left: 2rem;
+
 }
-#img-pollo-frito{
-    width: 100%;
+@media screen and (max-width: 575px) {
+    p{
+        margin-left: 5%;
+    }
 }
