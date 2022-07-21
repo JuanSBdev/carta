@@ -31,9 +31,15 @@ h2{
     padding: 1rem;
 }
 .carta img{
-    justify-content: center;    
+justify-content: center;    
 margin-left: 2rem;
 margin-bottom: 2.2rem;
+margin-top: 3rem;
+
+}
+#img-hawai{
+    max-width: 86%;
+    overflow: hidden;
 }
 .carta-otros{
 padding-bottom: 3rem;
