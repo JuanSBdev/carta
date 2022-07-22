@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 :root{
     width: 100%;
     background-color: #ffd34ed2;
@@ -59,4 +60,7 @@ padding-bottom: 3rem;
     p{
         margin-left: 5%;
     }
+}
+li{
+    list-style-type: none;
 }
