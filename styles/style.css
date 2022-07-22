@@ -64,3 +64,17 @@ padding-bottom: 3rem;
 li{
     list-style-type: none;
 }
+i{
+    font-size: 4rem;
+    position: fixed;
+}
+.dropdown{
+display: flex;
+justify-content: end;    
+}
+.dropdown-menu{
+    background-color: rgba(245, 235, 89, 0.651);
+    width: 70%;
+    height: 8rem;
+    border-radius: .1rem;
+}
