@@ -67,8 +67,10 @@ li{
 i{
     font-size: 4rem;
     position: fixed;
+    color: black;
 }
 .dropdown{
+    margin-right: 15%;
 display: flex;
 justify-content: end;    
 }
