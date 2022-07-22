@@ -73,10 +73,13 @@ i{
     margin-right: 15%;
 display: flex;
 justify-content: end;    
+
 }
 .dropdown-menu{
     background-color: rgba(245, 235, 89, 0.651);
     width: 70%;
     height: 8rem;
     border-radius: .1rem;
+    font-family: 'Bebas Neue', cursive;
+
 }
