@@ -78,6 +78,7 @@ position: fixed;
 
 }
 .dropdown-menu{
+    display: none;
     background-color: rgb(245, 235, 89);
     width: 70%;
     height: 8rem;
