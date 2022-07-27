@@ -1,6 +1,7 @@
-let libre = document.getElementsByClassName("orden")
-
+const libre = document.getElementsByClassName("orden");
 function addProduct(){
-    console.log('libre')
+    const texto = 'asdasd';
+    console.log(texto);
+    libre.innerHTML('p')
 
 }
