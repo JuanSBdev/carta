@@ -1,7 +1,17 @@
 let pedido = document.getElementsByClassName('carousel-item');
 let pedidos = pedido;
-function addProduct(){
+function addProductTexas(){
     let listaPadre = document.getElementById("orden");
     console.log(listaPadre);
-    listaPadre.innerHTML =  '<h2> tu orden </h2>' + pedidos[0].innerHTML;
+    listaPadre.innerHTML +=  pedidos[0].innerHTML;
+};
+function addProductCali(){
+    let listaPadre = document.getElementById("orden");
+    console.log(listaPadre);
+    listaPadre.innerHTML +=   pedidos[1].innerHTML;
+};
+function addProductNY(){
+    let listaPadre = document.getElementById("orden");
+    console.log(listaPadre);
+    listaPadre.innerHTML +=   pedidos[2].innerHTML;
 }
