@@ -15,3 +15,4 @@ function addProductNY(){
     console.log(listaPadre);
     listaPadre.innerHTML +=   pedidos[2].innerHTML;
 }
+/* aca hay que hacer una funcion [i] para no tener que poner una funcion x*/
