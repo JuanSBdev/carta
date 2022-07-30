@@ -14,5 +14,10 @@ function addProductNY(){
     let listaPadre = document.getElementById("orden");
     console.log(listaPadre);
     listaPadre.innerHTML +=   pedidos[2].innerHTML;
+};
+function addProductH(){
+    let listaPadre = document.getElementById("orden");
+    console.log(listaPadre);
+    listaPadre.innerHTML +=   pedidos[3].innerHTML;
 }
 /* aca hay que hacer una funcion [i] para no tener que poner una funcion x*/
