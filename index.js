@@ -1,8 +1,7 @@
-const libre = document.getElementsByClassName("orden");
-//buscando solución a agregar orden sin input
-//function addProduct(){
-//    const texto = 'asdasd';
-//    console.log(texto);
-//    libre.innerHTML('p')
+let listaOrden = document.getElementsByClassName("orden");
+const botonAdd = document.getElementsByTagName('button');
+console.log(listaOrden)
 
-//}
+function addProduct(){
+
+}
