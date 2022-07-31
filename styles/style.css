@@ -91,3 +91,6 @@ z-index: 3;
     padding-top: 6rem;
     padding-bottom: 5rem;
 }
+.none{
+    display: none;
+}
