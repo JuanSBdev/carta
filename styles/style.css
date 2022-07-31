@@ -94,3 +94,7 @@ z-index: 3;
 .none{
     display: none;
 }
+.show{
+    display: flex;
+    z-index: 2;
+}
