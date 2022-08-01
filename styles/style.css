@@ -92,11 +92,14 @@ z-index: 3;
     padding-bottom: 5rem;
 
 }
+main .btn-secondary{
+    display: none;
+}
 .pedidos button{
     display: none;
 }
-main .btn-secondary{
-    display: none;
+.pedidos .btn-secondary{
+    display: flex;
 }
 .none{
     display: none;
