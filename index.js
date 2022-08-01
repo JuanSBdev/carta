@@ -1,11 +1,16 @@
 let pedido = document.getElementsByClassName('carousel-item');
 let pedidos = pedido;
 let no = document.getElementsByClassName('none');
+let texasa = document.getElementById("texasa");
 
 function addProductTexas(){
     let listaPadre = document.getElementById("orden");
     console.log(listaPadre);
-    listaPadre.innerHTML +=  pedidos[0].textContent;
+/*
+listaPadre.innerHTML +=  pedidos[0].textContent;
+ */
+    listaPadre.innerHTML +=  texasa.innerHTML;
+    console.log(texasa)
 };
 function addProductCali(){
     let listaPadre = document.getElementById("orden");
