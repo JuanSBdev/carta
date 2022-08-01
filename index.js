@@ -6,11 +6,9 @@ let texasa = document.getElementById("texasa");
 function addProductTexas(){
     let listaPadre = document.getElementById("orden");
     console.log(listaPadre);
-/*
-listaPadre.innerHTML +=  pedidos[0].textContent;
- */
-    listaPadre.innerHTML +=  texasa.innerHTML;
-    console.log(texasa)
+
+listaPadre.innerHTML +=  pedidos[0].innerHTML;
+
 };
 function addProductCali(){
     let listaPadre = document.getElementById("orden");

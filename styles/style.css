@@ -90,6 +90,10 @@ z-index: 3;
 .pedidos{
     padding-top: 6rem;
     padding-bottom: 5rem;
+
+}
+.pedidos button{
+    display: none;
 }
 .none{
     display: none;
