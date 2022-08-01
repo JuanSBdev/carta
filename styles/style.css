@@ -95,6 +95,9 @@ z-index: 3;
 .pedidos button{
     display: none;
 }
+main .btn-secondary{
+    display: none;
+}
 .none{
     display: none;
 }
