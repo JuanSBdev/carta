@@ -5,7 +5,7 @@ let no = document.getElementsByClassName('none');
 function addProductTexas(){
     let listaPadre = document.getElementById("orden");
     console.log(listaPadre);
-    listaPadre.innerHTML +=  pedidos[0].innerHTML;
+    listaPadre.innerHTML +=  pedidos[0].textContent;
 };
 function addProductCali(){
     let listaPadre = document.getElementById("orden");
