@@ -26,11 +26,13 @@ function addProductH(){
     listaPadre.innerHTML +=   pedidos[3].innerHTML;
 }
 /* aca hay que hacer una funcion [i] para no tener que poner una funcion x*/
-function extras (){
+
+   /* 
+   function extras (){
     for (let i = 0; i < 10; i++){
         let no = document.getElementsByClassName('none');
         no[i].classList.add('show');
 
     }
     console.log('asd');
-}
+}*/
