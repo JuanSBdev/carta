@@ -31,14 +31,7 @@ function addProductH(){
     listaPadre.innerHTML +=   pedidos[3].innerHTML;
 }
 
-/* aca hay que hacer una funcion [i] para no tener que poner una funcion x*/
+/* 
+solucionar el value de los form select para que sumen 100 por extra
 
-   /* 
-   function extras (){
-    for (let i = 0; i < 10; i++){
-        let no = document.getElementsByClassName('none');
-        no[i].classList.add('show');
-
-    }
-    console.log('asd');
-}*/
+*/
