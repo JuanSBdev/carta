@@ -1,10 +1,12 @@
 let pedido = document.getElementsByClassName('carousel-item');
 let pedidos = pedido;
 let no = document.getElementsByClassName('none');
-let texasa = document.getElementById("texasa");
 
 function addProductTexas(){
     let listaPadre = document.getElementById("orden");
+    let noTex = document.getElementsByClassName('noneTex');
+    noTex[0].classList.add('show');
+
     console.log(listaPadre);
 
 listaPadre.innerHTML +=  pedidos[0].innerHTML;
