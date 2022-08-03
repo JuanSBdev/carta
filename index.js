@@ -1,7 +1,8 @@
 let pedido = document.getElementsByClassName('carousel-item');
 let pedidos = pedido;
 let no = document.getElementsByClassName('none');
-
+let california = document.getElementById('california')
+let extras = document.getElementById('extra')
 function addProductTexas(){
     let listaPadre = document.getElementById("orden");
     no[0, 1].classList.add('show');
@@ -14,6 +15,10 @@ function addProductCali(){
     no[2, 3].classList.add('show');
 
 };
+function addExtra(){
+    console.log(extras);
+};
+
 function addProductNY(){
     let listaPadre = document.getElementById("orden");
     no[4, 5].classList.add('show');
@@ -25,6 +30,7 @@ function addProductH(){
     no[6, 7].classList.add('show');
     listaPadre.innerHTML +=   pedidos[3].innerHTML;
 }
+
 /* aca hay que hacer una funcion [i] para no tener que poner una funcion x*/
 
    /* 

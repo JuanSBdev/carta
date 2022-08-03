@@ -47,13 +47,13 @@
                     <img src="https://delosan.com.ar/wp-content/uploads/2022/03/delosan-hamburguesa-product.png" class="d-block w-100" alt="texas">
                     <h2>California Burguer ®</h2>
                     <p> Contiene una hamburgesa casera (rost beef y sal), lactonesa, lechuga, tomate, queso tybo, jamon.</p>
-                    <button class="btn btn-primary col-11 mx-1 center" onclick="addProductCali()"> AGREGAR</button>
+                    <button class="btn btn-primary col-11 mx-1 center" id="california" onclick="addProductCali()"> AGREGAR</button>
                     <input type="button" class="btn btn-secondary col-11 mx-1 my-1" value="extras" placeholder="+extras">
                     <label class="none" for="extra">Extras:</label>
-                    <select multiple class="none" name="extras" id="">
-                      <option value="ext">bacon 100$ </option>
-                      <option value="">cheddar 100$</option>
-                      <option value="50"> hamburguesa 100$</option>
+                    <select  value="extra.select.options[formulario.select.selectedIndex].value" multiple class="none "  name="extras" id="">
+                      <option value="50" >bacon 100$ </option>
+                      <option value="50" class="extra" onclick="addExtra()" >cheddar 100$</option>
+                      <option value="50" class="extra" onclick="addExtra()" > hamburguesa 100$</option>
                     </select>
                   </div>
                   <div class="carousel-item">
