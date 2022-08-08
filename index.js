@@ -21,6 +21,12 @@ function addProductPancho(){
     no[2, 3].classList.add('show');
 
 };
+function addProductPapas(){
+    let listaPadre = document.getElementById("orden");
+    listaPadre.innerHTML +=   pedidos[6].innerHTML;
+    no[2, 3].classList.add('show');
+
+};
 
 function addProductNY(){
     let listaPadre = document.getElementById("orden");
