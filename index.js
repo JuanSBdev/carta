@@ -15,8 +15,11 @@ function addProductCali(){
     no[2, 3].classList.add('show');
 
 };
-function addExtra(){
-    console.log(extras);
+function addProductPancho(){
+    let listaPadre = document.getElementById("orden");
+    listaPadre.innerHTML +=   pedidos[5].innerHTML;
+    no[2, 3].classList.add('show');
+
 };
 
 function addProductNY(){
