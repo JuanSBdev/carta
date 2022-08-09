@@ -44,4 +44,4 @@ function addProductH(){
 solucionar el value de los form select para que sumen 100 por extra
 
 */
-/* dia de repaso teorico */
+/* dia de repaso teorico ((8.8.22))*/
