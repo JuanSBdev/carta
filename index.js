@@ -38,10 +38,4 @@ function addProductH(){
     let listaPadre = document.getElementById("orden");
     no[6, 7].classList.add('show');
     listaPadre.innerHTML +=   pedidos[3].innerHTML;
-}
-
-/* 
-solucionar el value de los form select para que sumen 100 por extra
-
-*/
-/* dia de repaso teorico ((8.8.22))*/
+};
