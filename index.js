@@ -18,13 +18,13 @@ function addProductCali(){
 function addProductPancho(){
     let listaPadre = document.getElementById("orden");
     listaPadre.innerHTML +=   pedidos[5].innerHTML;
-    no[2, 3].classList.add('show');
+    /*no[2, 3].classList.add('show');*/
 
 };
 function addProductPapas(){
     let listaPadre = document.getElementById("orden");
     listaPadre.innerHTML +=   pedidos[6].innerHTML;
-    no[2, 3].classList.add('show');
+    /*no[2, 3].classList.add('show');*/
 
 };
 
