@@ -4,6 +4,7 @@ let no = document.getElementsByClassName('none');
 let california = document.getElementById('california')
 let extras = document.getElementById('extra')
 function addProductTexas(){
+    alert('Agregaste una Texas Burguer a tu pedido')
     let listaPadre = document.getElementById("orden");
     no[0, 1].classList.add('show');
     listaPadre.innerHTML +=  pedidos[0].innerHTML;
