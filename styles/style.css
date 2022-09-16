@@ -92,6 +92,9 @@ z-index: 3;
     padding-bottom: 5rem;
 
 }
+.btn{
+    background-color: #000;
+}
 main .btn-secondary{
     display: none;
 }
