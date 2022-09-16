@@ -1,20 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 :root{
-    width: 98%;
+    position:relative;
     background-color: #ffd34ed2;
-
 }
 header{
-    background-color: #ffd34ed2;
+    background-color: #fca535d2;
+    width: 99%;
+    overflow: scroll;
+}
 
-}
-.logo-tabak{
-    padding-top: 30%;
-    padding-bottom: 30%;
-}
 main{
-    background-color: #ffd34ed2;
+    /*background-color: #ffd34ed2;
+    */
+    background-color: #fca535d2;
     position: absolute;
 }
 .carta{
@@ -62,6 +61,21 @@ padding-bottom: 3rem;
     margin-bottom: -3rem;
 }
 @media screen and (max-width: 575px) {
+    :root{
+        width: 100%;
+
+    }
+    header{
+        width: 106%;
+        overflow:hidden;
+
+    }
+    .logo-tabak{
+        width: 100%;
+        overflow:visible;
+        padding-top: 30%;
+        padding-bottom: 30%;
+    }
     p{
         margin-left: 5%;
     }
