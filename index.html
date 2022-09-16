@@ -5,6 +5,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/style.css">
 
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,7 +38,8 @@
                     <img src="https://s3.eu-central-1.amazonaws.com/www.burgerking.com.mx/wp-content/uploads/sites/3/2021/02/24092007/1200x800_11_BaconKing-1-1.png" id="texasa" class="d-block w-100" alt="texas">
                     <h2 id="">Texas Burguer ® </h2>
                     <p id=""> Contiene dos hamburgesas caseras (rost beef y sal), doble cheddar, bacon y aderezo tabak</p>
-                    <button class="btn btn-primary col-11 mx-1" onclick="addProductTexas()"> AGREGAR</button>
+                    <!--<button class="btn btn-primary col-11 mx-1" onclick="addProductTexas()"> AGREGAR</button>-->
+                    <button class="btn btn-2 btn-sep icon-cart" onclick="addProductTexas()">Agregar</button>
                     <input type="button" class="btn btn-secondary col-11 mx-1 my-1" onclick="extras()" value="extras" placeholder="+extras">
                     <label class="none" for="extra">Extras:</label>
                     <select  class="none"  name="extras" id="">
@@ -49,7 +52,8 @@
                     <img src="https://delosan.com.ar/wp-content/uploads/2022/03/delosan-hamburguesa-product.png" class="d-block w-100" alt="texas">
                     <h2>California Burguer ®</h2>
                     <p> Contiene una hamburgesa casera (rost beef y sal), lactonesa, lechuga, tomate, queso tybo, jamon.</p>
-                    <button class="btn btn-primary col-11 mx-1 center" id="california" onclick="addProductCali()"> AGREGAR</button>
+                    <!--<button class="btn btn-primary col-11 mx-1 center" id="california" onclick="addProductCali()"> AGREGAR</button>-->
+                    <button class="btn btn-2 btn-sep icon-cart" onclick="addProductCali()">Agregar</button>
                     <input type="button" class="btn btn-secondary col-11 mx-1 my-1" value="extras" placeholder="+extras">
                     <label class="none" for="extra">Extras:</label>
                     <select  value="extra.select.options[formulario.select.selectedIndex].value" multiple class="none "  name="extras" id="">
@@ -62,7 +66,8 @@
                     <img src="https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$cuarto-de-libra-con-queso.png/200/200/original?country=ec" class="d-block w-100" alt="texas">
                     <h2>New York Burguer ®</h2>
                     <p> Contiene una hamburgesa casera (rost beef y sal), cheddar, bacon y aderezo tabak</p>
-                    <button class="btn btn-primary col-11 mx-1" onclick="addProductNY()"> AGREGAR</button>
+                    <button class="btn btn-2 btn-sep icon-cart" onclick="addProductNY()">Agregar</button>
+
                     <input type="button" class="btn btn-secondary col-11 mx-1 my-1" value="extras" placeholder="+extras">
                     <label class="none" for="extra">Extras:</label>
                     <select class="none" name="extras" id="">
@@ -76,7 +81,7 @@
                     <h2>Hawai Veggie®</h2>
                     <p> Contiene una hamburgesa vegetariana con salsa de tomate y muzzarella, lactonesa, rúcula y
                          cebolla morada</p>
-                         <button class="btn btn-primary col-11 mx-1" onclick="addProductH()"> AGREGAR</button>
+                         <button class="btn btn-2 btn-sep icon-cart" onclick="addProductH()">Agregar</button>
                          <input type="button" class="btn btn-secondary col-11 mx-1 my-1" value="extras" placeholder="+extras">
                          <label class="none" for="extra">Extras:</label>
                          <select class="none" name="extras" id="">
@@ -96,19 +101,19 @@
                       <img src="https://i5.walmartimages.com/asr/68070daf-5319-4e47-9921-02b97953bcbf_1.8d545c4c75fda7abcea0d47da78abda0.png" class="" id="img-pollo-frito " alt="Pollo frito">
                       <h2>TFT Fried Chicken® </h2>
                       <p> Contiene pollo, pan rallado, mix de semillas, limón y aderezo a elección.</p>
-                      <button class="btn btn-primary col-11 mx-1" onclick="addProductTexas()"> AGREGAR</button>
+                      <button class="btn btn-2 btn-sep icon-cart" onclick="addProductTexas()">Agregar</button>
 
                   </div>
                   <div class="carousel-item">
                     <img src="https://i.pinimg.com/originals/a8/f5/c7/a8f5c7aff92f4a2bc2a9abae54412d5f.png" alt="">                    <h2>Super Pancho®</h2>
                     <p> Contiene salchicha XL, aderezos a elección</p>
-                    <button class="btn btn-primary col-11 mx-1" onclick="addProductPancho()"> AGREGAR</button>
+                    <button class="btn btn-2 btn-sep icon-cart" onclick="addProductPancho()">Agregar</button>
                   </div>
                   <div class="carousel-item">
                     <img src="https://images.squarespace-cdn.com/content/v1/61234575f9e0b26f59ce8bd6/1633487788816-OISX96RP5HC6EZSW64QD/side2.png" alt="">
                     <h2>Papas TFT®</h2>
                     <p> Papas fritas en sus tres opciones 1) Simples 2) con CHEDAR 3) con CHEDAR Y PANCETA.</p>
-                    <button class="btn btn-primary col-11 mx-1" onclick="addProductPapas()"> AGREGAR</button>
+                    <button class="btn btn-2 btn-sep icon-cart" onclick="addProductPapas()">Agregar</button>
 
                   </div>
                   <div class="carousel-item">
@@ -116,7 +121,7 @@
                     <h2>Hawai Veggie®</h2>
                     <p> Contiene una hamburgesa vegetariana con salsa de tomate y muzzarella, lactonesa, rúcula y
                          cebolla morada</p>
-                         <button class="btn btn-primary col-11 mx-1" onclick="addProductH()"> AGREGAR</button>
+                         <button class="btn btn-2 btn-sep icon-cart" onclick="addProductH()">Agregar</button>
 
                   </div>
                 </div>
