@@ -5,13 +5,17 @@
     background-color: #ffd34ed2;
 
 }
-main{
-    background-color: #ffd34ed2;
-    position: absolute;
-}
 header{
     background-color: #ffd34ed2;
 
+}
+.logo-tabak{
+    padding-top: 30%;
+    padding-bottom: 30%;
+}
+main{
+    background-color: #ffd34ed2;
+    position: absolute;
 }
 .carta{
     display: flex;
