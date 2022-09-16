@@ -124,6 +124,7 @@ main .btn-secondary{
     width: 98%;
     height: 5rem;
     border-radius: 1rem;
+    z-index: 10;
 }
 .i-a{
     left: 10%;
