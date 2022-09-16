@@ -62,11 +62,14 @@ padding-bottom: 3rem;
 }
 @media screen and (max-width: 575px) {
     :root{
+        left: 1%;
+        right: 0%;
         width: 100%;
+        background-color: #fca535d2;
 
     }
     header{
-        width: 106%;
+        width: 100%;
         overflow:hidden;
 
     }
@@ -130,12 +133,18 @@ main .btn-secondary{
     display: flex;
     z-index: 2;
 }
+.contenedor-nav{
+    display: flex;
+}
 .navegador{
     position: fixed;
+    display: flex;
+    justify-content: center;
     bottom: 0%;
+    left: 1%;
     background-color: #ff7900;
     border: 1px solid #f77b0e;
-    width: 98%;
+    width: 90%;
     height: 5rem;
     border-radius: 1rem;
     z-index: 10;
