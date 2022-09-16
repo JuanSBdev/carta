@@ -77,7 +77,7 @@ padding-bottom: 3rem;
         width: 100%;
         overflow:visible;
         padding-top: 30%;
-        padding-bottom: 30%;
+        padding-bottom: 35%;
     }
     p{
         margin-left: 5%;
@@ -144,6 +144,8 @@ main .btn-secondary{
     left: 1%;
     background-color: #ff7900;
     border: 1px solid #f77b0e;
+    box-shadow:  0px 0px 10px 0px #000;
+
     width: 90%;
     height: 5rem;
     border-radius: 1rem;
@@ -156,7 +158,8 @@ main .btn-secondary{
 
 }
 .i-b{
-    background-color: rgb(245, 159, 109);
+    background-color: #ff7900;
+
     border-radius: 2rem;
     left: 40%;
     bottom: .5%;
