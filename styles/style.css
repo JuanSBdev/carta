@@ -114,8 +114,8 @@ main .btn-secondary{
 .navegador{
     position: fixed;
     bottom: 0%;
-    background-color: red;
-    border: 1px solid red;
+    background-color: #ff7900;
+    border: 1px solid #f77b0e;
     width: 100%;
     height: 5rem;
     border-radius: 1rem;
@@ -127,7 +127,7 @@ main .btn-secondary{
 
 }
 .i-b{
-    background-color: rgb(194, 108, 38);
+    background-color: rgb(245, 159, 109);
     border-radius: 2rem;
     left: 40%;
     bottom: .5%;
