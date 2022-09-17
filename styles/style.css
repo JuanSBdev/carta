@@ -3,11 +3,10 @@
 :root{
     position:relative;
     background-color: #ffd34ed2;
+    overflow: hidden;
 }
 header{
     background-color: #fca535d2;
-    width: 99%;
-    overflow: scroll;
 }
 
 main{
@@ -51,7 +50,7 @@ margin-top: 3rem;
 padding-bottom: 3rem;
 }
 .carta-otros img{
-    width: 100%;
+    width: 99%;
     justify-content: center;    
     margin-left: 2rem;
 
@@ -61,21 +60,26 @@ padding-bottom: 3rem;
     margin-bottom: -3rem;
 }
 @media screen and (max-width: 575px) {
+ 
     :root{
         left: 1%;
         right: 0%;
         width: 100%;
         background-color: #fca535d2;
+        overflow:scroll;
 
+    }
+    body{
+      max-width: 100%;
     }
     header{
-        width: 100%;
-        overflow:hidden;
-
+        max-width: 100%;
+    }
+    img{
     }
     .logo-tabak{
-        width: 100%;
-        overflow:visible;
+       max-width: 100%;
+        overflow:hidden;
         padding-top: 30%;
         padding-bottom: 35%;
     }
