@@ -23,17 +23,18 @@ main{
 }
 h1{
     display: flex;
-    justify-content: center;
+    text-align: start;
     font-family: 'Bebas Neue', cursive;
     font-size: 3rem;
     padding: 1rem;
 }
-h2{
-    display: flex;
-    justify-content: center;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 3rem;
-    padding: 1rem;
+#h2Otros{
+  display: flex;
+  width: 100%;
+  justify-self: start;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3rem;
+  padding: 1rem;
 }
 .carta img{
 justify-content: center;    
@@ -88,6 +89,22 @@ padding-bottom: 3rem;
     p{
         margin-left: 5%;
     }
+    h1{
+      display: flex;
+      width: 100%;
+      justify-self: start;
+      font-family: 'Bebas Neue', cursive;
+      font-size: 3rem;
+      padding: 1rem;
+  }
+  h2{
+    display: flex;
+      width: 100%;
+      justify-self: start;
+      font-family: 'Bebas Neue', cursive;
+      font-size: 3rem;
+      padding: 1rem;
+  }
 }
 li{
     list-style-type: none;
