@@ -172,7 +172,7 @@ main .btn-secondary{
 }
 .i-a{
     left: 10%;
-    bottom: 0.1%;
+    bottom: 1.5%;
     font-size: 3rem;
 
 }
@@ -188,6 +188,7 @@ main .btn-secondary{
 .i-c{
     left: 70%;
     font-size: 3rem;
+    bottom: 2%;
 
 }
 
