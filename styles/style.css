@@ -10,14 +10,10 @@
 main{
     /*background-color: #ffd34ed2;
     */
+    max-width: 100%;
+     margin-left: 0%;
+      right: 10%; 
     background-color: #fca535d2;
-    max-width: 104%;
-}
-.carta{
-    display: flex;
-    width: 100%;
-    padding-bottom: 20%;
-    
 }
 h1{
     display: flex;
@@ -72,16 +68,16 @@ padding-bottom: 3rem;
     }
     header{
       display: flex;
+      position: relative;
       justify-content: center;
         max-width: 100%;
         padding-bottom: 39%;
         background-color: #fca535d2;
         width: 100%;
-
     }
     
     .logo-tabak{
-       max-width: 100%;
+       max-width: 98%;
         padding-top: 30%;
         padding-bottom: 35%;
     }
@@ -163,12 +159,12 @@ main .btn-secondary{
     display: flex;
     justify-content: center;
     bottom: 0%;
-    left: 1%;
     background-color: #ff7900;
     border: 1px solid #f77b0e;
     box-shadow:  0px 0px 10px 0px #000;
 justify-content: center;
-    width: 90%;
+    width: 98%;
+    left: 5px;
     height: 5rem;
     border-radius: 1rem;
     z-index: 10;
