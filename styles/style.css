@@ -155,19 +155,20 @@ main .btn-secondary{
     display: flex;
 }
 .navegador{
-    position: fixed;
-    display: flex;
+  width: 97%; 
+  position: fixed;
+  display: flex;
+  justify-content: center;
     justify-content: center;
-    bottom: 0%;
+    bottom: 1%;
     background-color: #ff7900;
     border: 1px solid #f77b0e;
     box-shadow:  0px 0px 10px 0px #000;
-justify-content: center;
-    width: 98%;
-    left: 5px;
     height: 5rem;
     border-radius: 1rem;
     z-index: 10;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 .i-a{
     left: 10%;
@@ -180,7 +181,7 @@ justify-content: center;
 
     border-radius: 2rem;
     left: 40%;
-    bottom: .5%;
+    bottom: 1%;
     padding-left: 2%;
     padding-right: 2%;
 }
