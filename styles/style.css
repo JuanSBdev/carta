@@ -3,7 +3,7 @@
 @media screen and (min-width: 480px) {
 :root{
   position:block;
-    background-color: #ffd34ed2;
+    background-color: #e27e20d2;
 }
 
 
@@ -13,8 +13,8 @@ main{
     max-width: 100%;
      margin-left: 0%;
       right: 10%; 
-    background-color: #fca535d2;
-}
+      background-color: #e27e20d2;
+    }
 h1{
     display: flex;
     text-align: start;
@@ -72,7 +72,7 @@ padding-bottom: 3rem;
       justify-content: center;
         max-width: 100%;
         padding-bottom: 39%;
-        background-color: #fca535d2;
+        background-color: #e27e20d2;
         width: 100%;
     }
     
@@ -161,7 +161,7 @@ main .btn-secondary{
   justify-content: center;
     justify-content: center;
     bottom: 1%;
-    background-color: #ff7900;
+    background-color: #eca011;
     border: 1px solid #f77b0e;
     box-shadow:  0px 0px 10px 0px #000;
     height: 5rem;
@@ -177,13 +177,13 @@ main .btn-secondary{
 
 }
 .i-b{
-    background-color: #ff7900;
-
+  background-color: #fda63b;
+    box-shadow:0 0 10px 0px #000;
     border-radius: 2rem;
     left: 40%;
     bottom: 1%;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 .i-c{
     left: 70%;
