@@ -40,6 +40,23 @@ nuev.classList.add('orden');
 listaPadre.appendChild(nuev);
    
 };
+function addProductFried(){
+    Swal.fire({
+        title:'Agregaste Super Pancho a tu pedido',
+        color: 'orange',
+        showCancelButton: true,
+        showConfirmButton: true,
+        confirmButtonText: 'ok',
+        confirmButton:'btn btn-light',
+    } );
+
+let nuev = document.createElement('div');
+let listaPadre = document.getElementById("pedido");
+nuev.innerHTML = pedidos[4].innerHTML;
+nuev.classList.add('orden');
+listaPadre.appendChild(nuev);
+};
+
 function addProductPancho(){
     Swal.fire({
         title:'Agregaste Super Pancho a tu pedido',
