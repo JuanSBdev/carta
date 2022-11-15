@@ -3,6 +3,7 @@ let pedidos = pedido;
 let no = document.getElementsByClassName('none');
 let california = document.getElementById('california')
 let extras = document.getElementById('extra')
+
 function addProductTexas(){
      
 Swal.fire({
@@ -12,9 +13,14 @@ Swal.fire({
     showConfirmButton: true,
     confirmButtonText: 'ok',
     confirmButton:'btn btn-light',
-} )
-    let listaPadre = document.getElementById("pedido-carro");
-    listaPadre.innerHTML +=  pedidos[0].innerHTML;
+} );
+    let nuev = document.createElement('div');
+    let listaPadre = document.getElementById("pedido");
+    nuev.innerHTML = pedidos[0].innerHTML;
+    nuev.classList.add('orden');
+        listaPadre.appendChild(nuev);
+    //    let listaPadre = document.getElementById("pedido");
+    //listaPadre.innerHTML +=  pedidos[0].innerHTML;
 
 };
 function addProductCali(){
@@ -27,9 +33,9 @@ function addProductCali(){
         confirmButton:'btn btn-light',
     } )
     let listaPadre = document.getElementById("orden");
-    listaPadre.innerHTML +=   pedidos[1].innerHTML;
-    no[2, 3].classList.add('show');
+    no[4, 5].classList.add('show');
 
+    listaPadre.innerHTML +=   pedidos[1].innerHTML;
 };
 function addProductPancho(){
     Swal.fire({

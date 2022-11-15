@@ -144,6 +144,18 @@ main .btn-secondary{
 .pedidos .btn-secondary{
     display: flex;
 }
+.orden{
+  width: 40%;
+  border: 4px solid black;
+  border-radius: 1rem;
+}
+.orden p, h3{
+  display: none;
+}
+.orden h2{
+  width: 100%;
+  font-size: 2rem;
+}
 .none{
     display: none;
 }
