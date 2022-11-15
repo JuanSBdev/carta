@@ -3,6 +3,10 @@ let pedidos = pedido;
 let no = document.getElementsByClassName('none');
 let california = document.getElementById('california')
 
+function paga(){
+    window.location = pages/pa
+}
+
 function addProductTexas(){
     
     Swal.fire({
