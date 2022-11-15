@@ -2,7 +2,6 @@ let pedido = document.getElementsByClassName('carousel-item');
 let pedidos = pedido;
 let no = document.getElementsByClassName('none');
 let california = document.getElementById('california')
-let extras = document.getElementById('extra')
 
 function addProductTexas(){
     

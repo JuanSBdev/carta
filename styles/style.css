@@ -1,19 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 @media screen and (min-width: 480px) {
-:root{
-  position:block;
-    background-color: #e27e20d2;
+
+
+  :root{
+    left: 1%;
+    right: 0%;
+    width: 100%;
+    overflow:scroll;
+
 }
-
-
+#marron{
+  display: flex;
+  position:absolute;
+  width: 50%;
+  height: 10rem;
+  background-color: #55300d;
+  border-radius: 10rem;
+  bottom: -30%;
+  right: 10%;
+}
+#marronDos{
+  position: relative;
+  width: 50%;
+  height: 20rem;
+  background-color: #55300d;
+  border-radius: 10rem;
+left: -20%;
+}
 main{
     /*background-color: #ffd34ed2;
     */
     max-width: 100%;
      margin-left: 0%;
       right: 10%; 
-      background-color: #e27e20d2;
+      background-color: #ffa24d;
     }
 h1{
     display: flex;
@@ -41,6 +62,7 @@ margin-top: 3rem;
     overflow: hidden;
 }
 .carta-otros{
+  margin-top: 5rem;
 padding-bottom: 3rem;
 }
 #pancho img{
@@ -68,24 +90,18 @@ padding-bottom: 3rem;
     margin-bottom: -3rem;
 }
  
-    :root{
-        left: 1%;
-        right: 0%;
-        width: 100%;
-        background-color: #fca535d2;
-        overflow:scroll;
-
-    }
+   
     body{
       max-width: 100%;
     }
     header{
+      
+      background-color: #55300d;
       display: flex;
       position: relative;
       justify-content: center;
         max-width: 100%;
         padding-bottom: 39%;
-        background-color: #e27e20d2;
         width: 100%;
     }
     
@@ -162,6 +178,7 @@ main .btn-secondary{
   border: 4px solid black;
   border-radius: 1rem;
   margin: 1%;
+  background-color: #ff8f0fa1;
 }
 .orden p, h3{
   display: none;
@@ -191,7 +208,7 @@ main .btn-secondary{
   justify-content: center;
     justify-content: center;
     bottom: 1%;
-    background-color: #eca011;
+    background-color: #ff6573;
     border: 1px solid #f77b0e;
     box-shadow:  0px 0px 10px 0px #000;
     height: 5rem;
@@ -207,7 +224,7 @@ main .btn-secondary{
 
 }
 .i-b{
-  background-color: #fda63b;
+  background-color: #ff6573;
     box-shadow:0 0 10px 0px #000;
     border-radius: 2rem;
     left: 40%;
