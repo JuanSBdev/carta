@@ -17,7 +17,7 @@ main{
     max-width: 100%;
      margin-left: 0%;
       right: 10%; 
-      background-color: #FAD23F;
+      background-color: #fed353
     }
 h1{
     display: flex;
@@ -79,8 +79,8 @@ padding-bottom: 3rem;
     }
     header{
       
-      background: rgb(96,55,17);
-      background: linear-gradient(180deg, rgb(0, 0, 0) 63%, #FAD23F 95%); 
+      background: rgb(66, 64, 61);
+      background: linear-gradient(180deg, rgb(0, 0, 0) 63%, #fed353 95%); 
      position: relative;
       justify-content: center;
         max-width: 100%;
