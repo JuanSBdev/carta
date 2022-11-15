@@ -32,6 +32,10 @@ let listaPadre = document.getElementById("pedido");
 nuev.innerHTML = pedidos[0].innerHTML;
 nuev.classList.add('orden');
 listaPadre.appendChild(nuev);
+let precio = 2000;
+let era = Number(btnPago.value);
+btnPago.value = era + precio;
+btnPago.innerText = "pagar " + btnPago.value + "$";
         }
         else if (result.isDenied) {
         }
@@ -74,7 +78,10 @@ let listaPadre = document.getElementById("pedido");
 nuev.innerHTML = pedidos[1].innerHTML;
 nuev.classList.add('orden');
 listaPadre.appendChild(nuev);
-
+let precio = 1500;
+let era = Number(btnPago.value);
+btnPago.value = era + precio;
+btnPago.innerText = "pagar " + btnPago.value + "$";
         }
         else if (result.isDenied) {
         }
@@ -114,8 +121,10 @@ function addProductFried(){
 let listaPadre = document.getElementById("pedido");
 nuev.innerHTML = pedidos[4].innerHTML;
 nuev.classList.add('orden');
-btnPago.value += 10;
-btnPago.innerText = parseInt(btnPago.value) ;
+let precio = 900;
+let era = Number(btnPago.value);
+btnPago.value = era + precio;
+btnPago.innerText = "pagar " + btnPago.value + "$";
 listaPadre.appendChild(nuev);
 
 
@@ -159,6 +168,10 @@ let listaPadre = document.getElementById("pedido");
 nuev.innerHTML = pedidos[5].innerHTML;
 nuev.classList.add('orden');
 listaPadre.appendChild(nuev);
+let precio = 500;
+let era = Number(btnPago.value);
+btnPago.value = era + precio;
+btnPago.innerText = "pagar " + btnPago.value + "$";
         }
         else if (result.isDenied) {
         }
@@ -196,6 +209,10 @@ let listaPadre = document.getElementById("pedido");
 nuev.innerHTML = pedidos[6].innerHTML;
 nuev.classList.add('orden');
 listaPadre.appendChild(nuev);
+let precio = 700;
+let era = Number(btnPago.value);
+btnPago.value = era + precio;
+btnPago.innerText = "pagar " + btnPago.value + "$";
         }
         else if (result.isDenied) {
         }
@@ -212,35 +229,87 @@ listaPadre.appendChild(nuev);
 };
 
 function addProductNY(){
-    Swal.fire({
-        title:'Agregaste una NY Burguer a tu pedido',
-        color: 'orange',
-        showCancelButton: true,
-        showConfirmButton: true,
-        confirmButtonText: 'ok',
-        confirmButton:'btn btn-light',
-    } );
-    let nuev = document.createElement('div');
+  Swal.fire({
+    title:'Agregaste una NY burger a tu pedido',
+    color: 'orange',
+    showCancelButton: true,
+    showConfirmButton: true,
+    confirmButtonText: 'Ok',
+    cancelButtonText: 'Quitar',
+} ).then((result) => {
+    /* Read more about isConfirmed, isDenied below */
+    if (result.isConfirmed) {
+      Swal.fire({
+        position: 'center',
+        icon: 'success',
+        title: 'Agregado',
+        showConfirmButton: false,
+        timer: 1500
+
+      });
+      let nuev = document.createElement('div');
 let listaPadre = document.getElementById("pedido");
 nuev.innerHTML = pedidos[2].innerHTML;
 nuev.classList.add('orden');
 listaPadre.appendChild(nuev);
+let precio = 1500;
+let era = Number(btnPago.value);
+btnPago.value = era + precio;
+btnPago.innerText = "pagar " + btnPago.value + "$";
+    }
+    else if (result.isDenied) {
+    }
+    else{        Swal.fire({
+        position: 'center',
+        icon: 'info',
+        title: 'Nope!',
+        showConfirmButton: false,
+        timer: 1500
+      })
+}
+  });
 };
 
 
 
 function addProductH(){
-    Swal.fire({
-        title:'Agregaste una Hawai Burguer a tu pedido :)',
-        color: 'orange',
-        showCancelButton: true,
-        showConfirmButton: true,
-        confirmButtonText: 'ok',
-        confirmButton:'btn btn-light',
-    } );
-    let nuev = document.createElement('div');
+  Swal.fire({
+    title:'Agregaste una Hawai burger a tu pedido',
+    color: 'orange',
+    showCancelButton: true,
+    showConfirmButton: true,
+    confirmButtonText: 'Ok',
+    cancelButtonText: 'Quitar',
+} ).then((result) => {
+    /* Read more about isConfirmed, isDenied below */
+    if (result.isConfirmed) {
+      Swal.fire({
+        position: 'center',
+        icon: 'success',
+        title: 'Agregado',
+        showConfirmButton: false,
+        timer: 1500
+
+      });
+      let nuev = document.createElement('div');
 let listaPadre = document.getElementById("pedido");
 nuev.innerHTML = pedidos[3].innerHTML;
 nuev.classList.add('orden');
 listaPadre.appendChild(nuev);
+let precio = 1800;
+let era = Number(btnPago.value);
+btnPago.value = era + precio;
+btnPago.innerText = "pagar " + btnPago.value + "$";
+    }
+    else if (result.isDenied) {
+    }
+    else{        Swal.fire({
+        position: 'center',
+        icon: 'info',
+        title: 'Nope!',
+        showConfirmButton: false,
+        timer: 1500
+      })
+}
+  });
 };
