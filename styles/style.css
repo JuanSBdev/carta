@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 720px) {
 
 
   :root{
@@ -10,24 +10,7 @@
     overflow:scroll;
 
 }
-#marron{
-  display: flex;
-  position:absolute;
-  width: 50%;
-  height: 10rem;
-  background-color: #55300d;
-  border-radius: 10rem;
-  bottom: -30%;
-  right: 10%;
-}
-#marronDos{
-  position: relative;
-  width: 50%;
-  height: 20rem;
-  background-color: #55300d;
-  border-radius: 10rem;
-left: -20%;
-}
+
 main{
     /*background-color: #ffd34ed2;
     */
@@ -96,13 +79,13 @@ padding-bottom: 3rem;
     }
     header{
       
-      background-color: #55300d;
-      display: flex;
-      position: relative;
+      background: rgb(96,55,17);
+      background: linear-gradient(180deg, rgba(96,55,17,1) 63%, rgba(255,162,77,1) 95%);      position: relative;
       justify-content: center;
         max-width: 100%;
         padding-bottom: 39%;
         width: 100%;
+        border-bottom: ;
     }
     
     .logo-tabak{
@@ -208,7 +191,7 @@ main .btn-secondary{
   justify-content: center;
     justify-content: center;
     bottom: 1%;
-    background-color: #ff6573;
+    background-color: #fdb44b;
     border: 1px solid #f77b0e;
     box-shadow:  0px 0px 10px 0px #000;
     height: 5rem;
@@ -224,7 +207,7 @@ main .btn-secondary{
 
 }
 .i-b{
-  background-color: #ff6573;
+  background-color: #fdb44b;
     box-shadow:0 0 10px 0px #000;
     border-radius: 2rem;
     left: 40%;
