@@ -114,7 +114,8 @@ function addProductFried(){
 let listaPadre = document.getElementById("pedido");
 nuev.innerHTML = pedidos[4].innerHTML;
 nuev.classList.add('orden');
-btnPago.innerText = btnPago.value;
+btnPago.value += 10;
+btnPago.innerText = parseInt(btnPago.value) ;
 listaPadre.appendChild(nuev);
 
 
