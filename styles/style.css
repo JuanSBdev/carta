@@ -80,12 +80,12 @@ padding-bottom: 3rem;
     header{
       
       background: rgb(96,55,17);
-      background: linear-gradient(180deg, rgba(96,55,17,1) 63%, rgba(255,162,77,1) 95%);      position: relative;
+      background: linear-gradient(180deg, rgba(96,55,17,1) 63%, rgba(255,162,77,1) 95%); 
+     position: relative;
       justify-content: center;
         max-width: 100%;
         padding-bottom: 39%;
         width: 100%;
-        border-bottom: ;
     }
     
     .logo-tabak{
