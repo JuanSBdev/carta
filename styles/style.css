@@ -156,6 +156,10 @@ main .btn-secondary{
   width: 100%;
   font-size: 2rem;
 }
+.orden img{
+  max-width: 90%;
+  padding-top: 3rem;
+}
 .none{
     display: none;
 }

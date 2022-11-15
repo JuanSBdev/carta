@@ -5,22 +5,23 @@ let california = document.getElementById('california')
 let extras = document.getElementById('extra')
 
 function addProductTexas(){
-     
-Swal.fire({
-    title:'Agregaste una Texas Burguer a tu pedido',
-    color: 'orange',
-    showCancelButton: true,
-    showConfirmButton: true,
-    confirmButtonText: 'ok',
+    
+    Swal.fire({
+        title:'Agregaste una Texas Burguer a tu pedido',
+        color: 'orange',
+        showCancelButton: true,
+        showConfirmButton: true,
+        confirmButtonText: 'ok',
     confirmButton:'btn btn-light',
 } );
-    let nuev = document.createElement('div');
-    let listaPadre = document.getElementById("pedido");
-    nuev.innerHTML = pedidos[0].innerHTML;
-    nuev.classList.add('orden');
-        listaPadre.appendChild(nuev);
-    //    let listaPadre = document.getElementById("pedido");
-    //listaPadre.innerHTML +=  pedidos[0].innerHTML;
+let nuev = document.createElement('div');
+let listaPadre = document.getElementById("pedido");
+nuev.innerHTML = pedidos[0].innerHTML;
+nuev.classList.add('orden');
+listaPadre.appendChild(nuev);
+//la funcion antes:
+//    let listaPadre = document.getElementById("pedido");
+//listaPadre.innerHTML +=  pedidos[0].innerHTML;
 
 };
 function addProductCali(){
@@ -31,11 +32,13 @@ function addProductCali(){
         showConfirmButton: true,
         confirmButtonText: 'ok',
         confirmButton:'btn btn-light',
-    } )
-    let listaPadre = document.getElementById("orden");
-    no[4, 5].classList.add('show');
-
-    listaPadre.innerHTML +=   pedidos[1].innerHTML;
+    } );
+    let nuev = document.createElement('div');
+let listaPadre = document.getElementById("pedido");
+nuev.innerHTML = pedidos[1].innerHTML;
+nuev.classList.add('orden');
+listaPadre.appendChild(nuev);
+   
 };
 function addProductPancho(){
     Swal.fire({
@@ -45,11 +48,13 @@ function addProductPancho(){
         showConfirmButton: true,
         confirmButtonText: 'ok',
         confirmButton:'btn btn-light',
-    } )
-    let listaPadre = document.getElementById("orden");
-    listaPadre.innerHTML +=   pedidos[5].innerHTML;
-    /*no[2, 3].classList.add('show');*/
+    } );
 
+let nuev = document.createElement('div');
+let listaPadre = document.getElementById("pedido");
+nuev.innerHTML = pedidos[5].innerHTML;
+nuev.classList.add('orden');
+listaPadre.appendChild(nuev);
 };
 function addProductPapas(){
     Swal.fire({
@@ -59,10 +64,13 @@ function addProductPapas(){
         showConfirmButton: true,
         confirmButtonText: 'ok',
         confirmButton:'btn btn-light',
-    } )
-    let listaPadre = document.getElementById("orden");
-    listaPadre.innerHTML +=   pedidos[6].innerHTML;
-    /*no[2, 3].classList.add('show');*/
+    } );
+
+    let nuev = document.createElement('div');
+let listaPadre = document.getElementById("pedido");
+nuev.innerHTML = pedidos[6].innerHTML;
+nuev.classList.add('orden');
+listaPadre.appendChild(nuev);
 
 };
 
@@ -74,12 +82,16 @@ function addProductNY(){
         showConfirmButton: true,
         confirmButtonText: 'ok',
         confirmButton:'btn btn-light',
-    } )
-    let listaPadre = document.getElementById("orden");
-    no[4, 5].classList.add('show');
-
-    listaPadre.innerHTML +=   pedidos[2].innerHTML;
+    } );
+    let nuev = document.createElement('div');
+let listaPadre = document.getElementById("pedido");
+nuev.innerHTML = pedidos[2].innerHTML;
+nuev.classList.add('orden');
+listaPadre.appendChild(nuev);
 };
+
+
+
 function addProductH(){
     Swal.fire({
         title:'Agregaste una Hawai Burguer a tu pedido :)',
@@ -88,8 +100,10 @@ function addProductH(){
         showConfirmButton: true,
         confirmButtonText: 'ok',
         confirmButton:'btn btn-light',
-    } )
-    let listaPadre = document.getElementById("orden");
-    no[6, 7].classList.add('show');
-    listaPadre.innerHTML +=   pedidos[3].innerHTML;
+    } );
+    let nuev = document.createElement('div');
+let listaPadre = document.getElementById("pedido");
+nuev.innerHTML = pedidos[3].innerHTML;
+nuev.classList.add('orden');
+listaPadre.appendChild(nuev);
 };
