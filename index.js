@@ -2,9 +2,9 @@ let pedido = document.getElementsByClassName('carousel-item');
 let pedidos = pedido;
 let no = document.getElementsByClassName('none');
 let california = document.getElementById('california')
-
+let btnPago = document.getElementById('clickButton')
 function paga(){
-    window.location = pages/pa
+    
 }
 
 function addProductTexas(){
@@ -32,6 +32,7 @@ let listaPadre = document.getElementById("pedido");
 nuev.innerHTML = pedidos[0].innerHTML;
 nuev.classList.add('orden');
 listaPadre.appendChild(nuev);
+btnPago.value = btnPago.value + 10 
         }
         else if (result.isDenied) {
         }
@@ -74,6 +75,7 @@ let listaPadre = document.getElementById("pedido");
 nuev.innerHTML = pedidos[1].innerHTML;
 nuev.classList.add('orden');
 listaPadre.appendChild(nuev);
+
         }
         else if (result.isDenied) {
         }
