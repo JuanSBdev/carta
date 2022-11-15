@@ -32,7 +32,6 @@ let listaPadre = document.getElementById("pedido");
 nuev.innerHTML = pedidos[0].innerHTML;
 nuev.classList.add('orden');
 listaPadre.appendChild(nuev);
-btnPago.value = btnPago.value + 10 
         }
         else if (result.isDenied) {
         }
@@ -115,7 +114,10 @@ function addProductFried(){
 let listaPadre = document.getElementById("pedido");
 nuev.innerHTML = pedidos[4].innerHTML;
 nuev.classList.add('orden');
+btnPago.innerText = btnPago.value;
 listaPadre.appendChild(nuev);
+
+
         }
         else if (result.isDenied) {
         }
