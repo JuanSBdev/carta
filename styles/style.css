@@ -186,6 +186,11 @@ main .btn-secondary{
     flex-flow: row nowrap;
     width: 100%;
 }
+.cross{
+  background-color: #000000;
+  width: 20px;
+  height: 20px;
+}
 .navegador{
   width: 96%; 
   position: fixed;

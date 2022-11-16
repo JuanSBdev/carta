@@ -1,8 +1,13 @@
 let pedido = document.getElementsByClassName('carousel-item');
 let pedidos = pedido;
 let no = document.getElementsByClassName('none');
-let california = document.getElementById('california')
-let btnPago = document.getElementById('clickButton')
+let california = document.getElementById('california');
+let btnPago = document.getElementById('clickButton');
+if (btnPago.value = '0') {
+  console.log(btnPago.value)
+  btnPago.className = 'none';
+  
+}
 function paga(){
     
 }
@@ -36,6 +41,7 @@ let precio = 2000;
 let era = Number(btnPago.value);
 btnPago.value = era + precio;
 btnPago.innerText = "pagar " + btnPago.value + "$";
+btnPago.className = 'btn btn-2 btn-sep icon-cart'
         }
         else if (result.isDenied) {
         }
@@ -82,6 +88,8 @@ let precio = 1500;
 let era = Number(btnPago.value);
 btnPago.value = era + precio;
 btnPago.innerText = "pagar " + btnPago.value + "$";
+btnPago.className = 'btn btn-2 btn-sep icon-cart';
+
         }
         else if (result.isDenied) {
         }
@@ -126,6 +134,7 @@ let era = Number(btnPago.value);
 btnPago.value = era + precio;
 btnPago.innerText = "pagar " + btnPago.value + "$";
 listaPadre.appendChild(nuev);
+btnPago.className = 'btn btn-2 btn-sep icon-cart';
 
 
         }
@@ -172,6 +181,7 @@ let precio = 500;
 let era = Number(btnPago.value);
 btnPago.value = era + precio;
 btnPago.innerText = "pagar " + btnPago.value + "$";
+btnPago.className = 'btn btn-2 btn-sep icon-cart';
         }
         else if (result.isDenied) {
         }
@@ -213,6 +223,8 @@ let precio = 700;
 let era = Number(btnPago.value);
 btnPago.value = era + precio;
 btnPago.innerText = "pagar " + btnPago.value + "$";
+btnPago.className = 'btn btn-2 btn-sep icon-cart';
+
         }
         else if (result.isDenied) {
         }
@@ -256,6 +268,8 @@ let precio = 1500;
 let era = Number(btnPago.value);
 btnPago.value = era + precio;
 btnPago.innerText = "pagar " + btnPago.value + "$";
+btnPago.className = 'btn btn-2 btn-sep icon-cart';
+
     }
     else if (result.isDenied) {
     }
@@ -292,14 +306,19 @@ function addProductH(){
 
       });
       let nuev = document.createElement('div');
+      let cros = document.createElement('button');
+      cros.classList.add('cross');
 let listaPadre = document.getElementById("pedido");
 nuev.innerHTML = pedidos[3].innerHTML;
 nuev.classList.add('orden');
+nuev.appendChild(cros)
 listaPadre.appendChild(nuev);
 let precio = 1800;
 let era = Number(btnPago.value);
 btnPago.value = era + precio;
 btnPago.innerText = "pagar " + btnPago.value + "$";
+btnPago.className = 'btn btn-2 btn-sep icon-cart';
+
     }
     else if (result.isDenied) {
     }
@@ -313,3 +332,4 @@ btnPago.innerText = "pagar " + btnPago.value + "$";
 }
   });
 };
+
