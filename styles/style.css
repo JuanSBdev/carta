@@ -25,6 +25,19 @@ h1{
     font-family: 'Bebas Neue', cursive;
     font-size: 3rem;
     padding: 1rem;
+   
+}
+.carta h2{
+  width: 80%;
+
+}
+.carta-otros h2{
+  width: 80%;
+
+}
+
+#texas-h2{
+  width: 80%;
 }
 #h2Otros{
   display: flex;
@@ -59,6 +72,7 @@ padding-bottom: 3rem;
 }
 .carousel-item{
   text-align: start;
+
 }
 .carousel-item h2{
   margin-left: 20%;

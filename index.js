@@ -3,6 +3,8 @@ let pedidos = pedido;
 let no = document.getElementsByClassName('none');
 let california = document.getElementById('california');
 let btnPago = document.getElementById('clickButton');
+let listaPadre = document.getElementById("pedido");
+
 if (btnPago.value = '0') {
   console.log(btnPago.value)
   btnPago.className = 'none';
@@ -332,4 +334,3 @@ btnPago.className = 'btn btn-2 btn-sep icon-cart';
 }
   });
 };
-
