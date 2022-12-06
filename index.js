@@ -335,3 +335,12 @@ btnPago.className = 'btn btn-2 btn-sep icon-cart';
 }
 });
 };
+function pagarClick(){
+  btnPago.innerHTML= 'Pagado';
+  Swal.fire({
+    title:'Que lo disfrutes :)',
+    text:'Dirigete a la caja con el siguiente codigo #2323',
+    color: 'orange',
+    showConfirmButton: false,
+} )
+}
