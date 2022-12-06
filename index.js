@@ -4,14 +4,12 @@ let no = document.getElementsByClassName('none');
 let california = document.getElementById('california');
 let btnPago = document.getElementById('clickButton');
 let listaPadre = document.getElementById("pedido");
-let ordenado = document.getElementsByClassName('orden')
+let ordenado = document.getElementsByClassName('orden');
+let pedidoPag = document.getElementsByClassName('pedido-pag');
 if (btnPago.value = '0') {
   console.log(btnPago.value)
   btnPago.className = 'none';
   
-}
-function paga(){
-    
 }
 
 function addProductTexas(){
@@ -43,7 +41,10 @@ let precio = 2000;
 let era = Number(btnPago.value);
 btnPago.value = era + precio;
 btnPago.innerText = "pagar " + btnPago.value + "$";
-btnPago.className = 'btn btn-2 btn-sep icon-cart'
+btnPago.className = 'btn btn-2 btn-sep icon-cart';
+console.log(ordenado.precio);
+
+
         }
         else if (result.isDenied) {
         }
@@ -334,8 +335,3 @@ btnPago.className = 'btn btn-2 btn-sep icon-cart';
 }
 });
 };
-ordenado.precio = btnPago.value;
-console.log(typeof(ordenado.precio))
-if(btnPago.className != 'none'){
-
-}
