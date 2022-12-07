@@ -336,11 +336,16 @@ btnPago.className = 'btn btn-2 btn-sep icon-cart';
 });
 };
 function pagarClick(){
+  listaPadre.remove();
   btnPago.innerHTML= 'Pagado';
   Swal.fire({
     title:'Que lo disfrutes :)',
-    text:'Dirigete a la caja con el siguiente codigo #2323',
+    text:'Dirigete a la caja con el siguiente codigo #23231',
     color: 'orange',
     showConfirmButton: false,
-} )
+} );
+setTimeout(() => {
+  window.location.reload("Refresh")
+}, 5000);
+
 }
